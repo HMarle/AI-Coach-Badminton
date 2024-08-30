@@ -1,8 +1,8 @@
 # AI-Coach-Badminton
 
-## Usage and Result 
+## Usage and Results 
 
-This AI uses **computer vision** to determine whether a player's playing style is **offensive** or **defensive**, in order to improve the other player's play.
+This AI uses **computer vision** to determine wether a player's playing style is **offensive** or **defensive**, in order to improve his skills.
 
 [![Result Video](image/imgresult.png)](https://www.youtube.com/watch?v=fyArfPT05PM)
 
@@ -11,11 +11,11 @@ This AI uses **computer vision** to determine whether a player's playing style i
 
 # How to run 
 
-### Atention this programe uses non-regular python packages : pandas, sklearn, joblib. 
+### Attention this program uses non-regular python packages : pandas, sklearn, joblib. 
 
-To be abel to **determine the game style of your own video stroke** you should use the [realtimepredict.py](realtimepredict.py) program. ( Make sure to change for the **correct video path** you have when you run it ) <br>
+To be able to **determine the game style of your own video stroke** you should use the [realtimepredict.py](realtimepredict.py) program. ( Make sure to change the **video path** when you run it ) <br>
 The realtimepredict.py program use a **classification model** that have been **trained** before with a dataset. <br>
-Use the **[classification model](classification model) I have made**, or use ur **own dataset** to make yours **with [aifit.py](aifit.py)**.
+Use the **[classification model](classification model/svm_model.joblib) I have made**, or use ur **own dataset** to make yours **with [aifit.py](aifit.py)**.
 
 
 # How it works
