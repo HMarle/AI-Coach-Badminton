@@ -20,4 +20,5 @@ Make sure to prepare videos to create the dataset. Each of your videos should be
 
 # How it works
 
-
+![aifit.py explanation](image/Captured'écran2024-09-02à15.39.14.png)
+![getpisition.py explanation](image/Captured’écran2024-09-02à15.39.05.png)
